@@ -3,7 +3,7 @@ body {
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
     color: #6c7279;
-    background-color: black;
+    /* background-color: black; */
 -webkit-flow-into: inherit;
 }
 
@@ -140,4 +140,39 @@ p{
 
 .btn--red:hover{
     background-color: #dd3434;
+}
+
+/* Features
+=================*/
+
+.features{
+    display: flex;
+    margin:100px 0;
+    flex-wrap: wrap;
+}
+
+.features__item{
+    width: 33.33333%;
+    padding: 0 40px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.features__icon{
+    margin-bottom: 20px;
+
+}
+
+.features__title{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.features__text{
+    font-size: 14px;
+    color: #6c7279;
+    line-height: 1.5;
 }
