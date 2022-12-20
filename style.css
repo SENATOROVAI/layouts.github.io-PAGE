@@ -26,8 +26,9 @@ p{
 ********/
 .container{
     width: 100%;
-    max-width: 1170px ;
+    max-width: 1200px ;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* Header
@@ -237,3 +238,45 @@ opacity: 1;
     font-size: 14px;
 }
 
+/* Team */
+
+.team{
+    margin: 100px 0;
+}
+
+.team_inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.team_item{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.team_photo{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team_name{
+    margin-top: 8px ;
+    font-size: 22px;
+    color: #2d3033;
+}
+
+.team_prof{
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+}
+
+.team_text{
+    font-size: 14px;
+    line-height: 1.5;
+    color:#6c7279;
+}
