@@ -1,4 +1,7 @@
 $(function(){
+
+    /* header */
+
 let header = $("#header");
 let intro = $("#intro");
 let introH = intro.innerHeight();
@@ -13,7 +16,9 @@ $(window).on("scroll load resize", function(){
     }else{
         header.removeClass("fixed");
     }
-    
 });
+ /* smooth scroll */
+
+ $(["data-scroll"]).on("click",)
 });
 
